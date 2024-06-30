@@ -8,10 +8,10 @@ import os
 from keep_alive import keep_alive
 keep_alive()
 # insert your Telegram bot token here
-bot = telebot.TeleBot('TOKEN')
+bot = telebot.TeleBot('7232302798:AAECihRZBM4P8vQ3eQVVQGZ4oWFS-2OyEwo')
 
 # Admin user IDs
-admin_id = ["your id"]
+admin_id = ["6750039665"]
 
 # File to store allowed user IDs
 USER_FILE = "users.txt"
@@ -242,7 +242,7 @@ def show_all_users(message):
                     response = "Authorized Users:\n"
                     for user_id in user_ids:
                         try:
-                            user_info = bot.get_chat(int(user_id))
+                            user_info = bot.get_chat(int(user_3000))
                             username = user_info.username
                             response += f"- @{username} (ID: {user_id})\n"
                         except Exception as e:
