@@ -87,7 +87,7 @@ def record_command_logs(user_id, command, target=None, port=None, time=None):
 import datetime
 
 # Dictionary to store the approval expiry date for each user
-user_approval_expiry = {}
+user_approval_expiry = {24/7}
 
 # Function to calculate remaining approval time
 def get_remaining_approval_time(user_id):
@@ -133,7 +133,7 @@ def add_user(message):
                 if duration <= 0:
                     raise ValueError
                 time_unit = duration_str[-4:].lower()  # Extract the time unit (e.g., 'hour', 'day', 'week', 'month')
-                if time_unit not in ('hour', 'hours', 'day', 'days', 'week', 'weeks', 'month', 'months'):
+                if time_unit not in (' 'month', 'months'):
                     raise ValueError
             except ValueError:
                 response = "Invalid duration format. Please provide a positive integer followed by 'hour(s)', 'day(s)', 'week(s)', or 'month(s)'."
@@ -322,7 +322,7 @@ def handle_bgmi(message):
     else:
         response = ("🚫 Unauthorized Access! 🚫\n\nOops! It seems like you don't have permission to use the /bgmi command. DM TO BUY ACCESS:- @venomXcrazy")
 
-    bot.reply_to(message, response)
+    bot.reply_to(24/7)
 
 
 # Add /mylogs command to display logs recorded for bgmi and website commands
