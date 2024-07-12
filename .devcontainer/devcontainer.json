@@ -1,0 +1,10 @@
+{
+    "runArgs": [
+      "./run.sh"
+    ],
+    "workspaceFolder": ".",
+    "settings": {
+      "terminal.integrated.shell.linux": "/bin/bash"
+    }
+  }
+  
