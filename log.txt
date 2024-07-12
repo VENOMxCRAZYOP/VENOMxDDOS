@@ -1,0 +1,36 @@
+UserID: -1002220455268 | Time: 2024-07-12 17:32:47.173398 | Command: /bgmi | Target: 20.235.17.32 | Port: 19157 | Time: 240
+Username: @xyladdos
+Target: 20.235.17.32
+Port: 19157
+Time: 240
+
+UserID: -1002220455268 | Time: 2024-07-12 17:32:50.101585 | Command: /bgmi | Target: 20.235.17.32 | Port: 19157 | Time: 240
+Username: @xyladdos
+Target: 20.235.17.32
+Port: 19157
+Time: 240
+
+UserID: -1002220455268 | Time: 2024-07-12 17:36:41.387225 | Command: /bgmi | Target: 20.235.17.32 | Port: 19157 | Time: 240
+UserID: -1002220455268 | Time: 2024-07-12 17:36:41.518179 | Command: /bgmi | Target: 20.235.17.32 | Port: 19157 | Time: 240
+Username: @xyladdos
+Target: 20.235.17.32
+Port: 19157
+Time: 240
+
+Username: @xyladdos
+Target: 20.235.17.32
+Port: 19157
+Time: 240
+
+UserID: -1002220455268 | Time: 2024-07-12 17:40:57.523096 | Command: /bgmi | Target: 20.204.191.218 | Port: 10480 | Time: 240
+Username: @xyladdos
+Target: 20.204.191.218
+Port: 10480
+Time: 240
+
+UserID: -1002220455268 | Time: 2024-07-12 17:40:58.997182 | Command: /bgmi | Target: 20.204.191.218 | Port: 10480 | Time: 240
+Username: @xyladdos
+Target: 20.204.191.218
+Port: 10480
+Time: 240
+
