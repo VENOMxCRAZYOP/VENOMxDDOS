@@ -6,7 +6,7 @@ import asyncio
 
 API_TOKEN = '7253917965:AAH6mG6AHe8PN0RM45CjA-KMS46mFt9FtXM'
 ADMIN_ID = '1244392555'
-MAX_RESTARTS = 5
+MAX_RESTARTS = 100
 RESTART_PERIOD = 60  # Seconds
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
