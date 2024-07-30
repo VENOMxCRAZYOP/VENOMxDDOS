@@ -48,7 +48,7 @@ allowed_user_ids = read_users()
 
 # Function to log command to the file
 def log_command(user_id, target, port, time):
-    admin_id = ["5588464519"]
+    admin_id = ["5033097278"]
     user_info = bot.get_chat(user_id)
     if user_info.username:
         username = "@" + user_info.username
@@ -308,7 +308,7 @@ def handle_bgmi(message):
             port = int(command[2])  # Convert port to integer
             time = int(command[3])  # Convert time to integer
             if time > 600:
-                response = "Error: Time interval must be less than 600."
+                response = "Error: Time interval must be less than 800."
             else:
                 record_command_logs(user_id, '/bgmi', target, port, time)
                 log_command(user_id, target, port, time)
