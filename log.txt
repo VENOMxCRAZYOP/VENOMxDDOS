@@ -1,0 +1,36 @@
+UserID: 6498917574 | Time: 2024-07-30 13:41:08.311760 | Command: /bgmi | Target: 20.219.161.193 | Port: 14980 | Time: 180
+Username: @Nika_Sun_God_luffy
+Target: 20.219.161.193
+Port: 14980
+Time: 180
+
+UserID: 6498917574 | Time: 2024-07-30 13:46:41.246145 | Command: /bgmi | Target: 20.204.19.255 | Port: 10888 | Time: 180
+Username: @Nika_Sun_God_luffy
+Target: 20.204.19.255
+Port: 10888
+Time: 180
+
+UserID: 6498917574 | Time: 2024-07-30 13:48:23.028369 | Command: /bgmi | Target: 20.219.164.149 | Port: 20323 | Time: 180
+Username: @Nika_Sun_God_luffy
+Target: 20.219.164.149
+Port: 20323
+Time: 180
+
+UserID: 6498917574 | Time: 2024-07-30 13:49:48.086386 | Command: /bgmi | Target: 20.219.164.149 | Port: 20323 | Time: 180
+Username: @Nika_Sun_God_luffy
+Target: 20.219.164.149
+Port: 20323
+Time: 180
+
+UserID: 6498917574 | Time: 2024-07-30 14:09:21.759863 | Command: /bgmi | Target: 20.235.11.134 | Port: 26429 | Time: 180
+Username: @Nika_Sun_God_luffy
+Target: 20.235.11.134
+Port: 26429
+Time: 180
+
+UserID: 6498917574 | Time: 2024-07-30 14:09:43.550890 | Command: /bgmi | Target: 20.235.11.134 | Port: 26429 | Time: 180
+Username: @Nika_Sun_God_luffy
+Target: 20.235.11.134
+Port: 26429
+Time: 180
+
